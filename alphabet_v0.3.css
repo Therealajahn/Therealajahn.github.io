@@ -1,0 +1,657 @@
+body{
+    background-color: #000;
+    margin: 0;
+}
+span{
+    float:left;
+}
+.none{
+    display: none;
+}
+/* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+#a{
+    width: 40px;
+    height: 40px;
+    display: grid;
+    padding: 5px;
+    margin-top: 10px;
+    grid-template-columns: repeat(5,20%);
+    grid-template-rows: repeat(6,16.6%);
+}
+
+#aBody{
+    background-color: #F62509;
+    grid-area: 1/1/6/6;
+}
+#aInner{
+    background-color: #000;
+    grid-area: 2/2/5/5;
+}
+
+#aVert{
+    background-color: #000;
+    grid-area: 1/3/6/4;
+    
+}
+
+#aHorz{
+    background-color: #000;
+    grid-area: 3/1/3/6;
+    
+}
+
+#aTail{
+    background-color: #E46F1B;
+    grid-area: 6/5/7/6;
+}
+/* bbbbbbbbbbbbbbbbbbbbbbbbbb*/
+#b{
+    width: 40px;
+    height: 40px;
+    display: grid;
+    padding: 15px;
+    grid-template-columns: repeat(5,20%);
+    grid-template-rows: repeat(6,16.6%);
+}
+#bBody{
+    background-color: #F62509;
+    grid-area: 3/1/7/6;
+}
+#bInner{
+    background-color: #000;
+    grid-area: 4/2/6/5;
+}
+
+#bVert{
+    background-color: #000;
+    grid-area: 1/3/7/4;
+}
+
+#bHorz{
+    background-color: #000;
+    grid-area: 5/1/6/6;
+}
+
+#bTail{
+    background-color: #E46F1B;
+    grid-area: 1/1/7/2;
+    z-index: -1;
+}
+
+
+
+/* ccccccccccccccccc*/
+#c{
+    width: 40px;
+    height: 40px;
+    display: grid;
+	padding: 10px;
+	margin-top: 5px;
+    grid-template-columns: repeat(5,20%);
+    grid-template-rows: repeat(6,16.6%);
+}
+#cBody{
+    background-color: #F62509;
+    grid-area: 1/1/7/7;
+}
+#cInner{
+    background-color: #000;
+    grid-area: 2/2/6/6;
+}
+
+#cVert{
+    background-color: #000;
+    grid-area: 1/3/7/4;
+}
+
+#cHorz{
+    background-color: #000;
+    grid-area: 4/1/5/6;
+}
+
+#cTail{
+    background-color: #E46F1B;
+    grid-area: 1/1/7/2;
+    z-index: -1;
+}
+/* dddddddddddd*/
+#d{
+    width: 40px;
+    height: 40px;
+    display: grid;
+	padding: 10px;
+	margin-top: 5px;
+    grid-template-columns: repeat(5,20%);
+    grid-template-rows: repeat(6,16.6%);
+}
+#dBody{
+    background-color: #F62509;
+    grid-area: 3/1/7/7;
+    z-index: -1;
+}
+#dInner{
+    background-color: #000;
+    grid-area: 4/2/6/4;
+}
+
+#dVert{
+    background-color: #000;
+    grid-area: 1/3/7/4;
+}
+
+#dHorz{
+    background-color: #000;
+    grid-area: 4/1/5/6;
+    z-index: 0;
+}
+
+#dTail{
+    background-color: #E46F1B;
+    grid-area: 1/5/7/6;
+    z-index:-1;
+}
+
+/* eeeeeeeeeeee*/
+#e{
+    width: 40px;
+    height: 40px;
+    display: grid;
+	padding: 10px;
+	margin-top: 5px;
+    grid-template-columns: repeat(5,20%);
+    grid-template-rows: repeat(6,16.6%);
+}
+#eBody{
+    background-color: #F62509;
+    grid-area: 1/1/7/7;
+}
+#eVert{
+    background-color: #000;
+    grid-area: 1/2/7/3;
+}
+
+#eInner{
+    background-color: #000;
+    grid-area: 2/1/3/6;
+}
+
+#eHorz{
+    background-color: #000;
+    grid-area: 5/1/6/6;
+}
+
+#eTail{
+    background-color: #E46F1B;
+    grid-area: 1/1/7/2;
+    z-index: -1;
+    display:none;
+}
+/* fffffffffff*/
+#f{
+    width: 40px;
+    height: 40px;
+    display: grid;
+	padding: 10px;
+	margin-top: 5px;
+    grid-template-columns: repeat(5,20%);
+    grid-template-rows: repeat(6,16.6%);
+}
+#fBody{
+    background-color: #F62509;
+    grid-area: 1/1/7/7;
+}
+#fVert{
+    background-color: #000;
+    grid-area: 1/2/7/3;
+}
+
+
+#fInner{
+    background-color: #000;
+    grid-area: 2/1/3/6;
+}
+
+#fHorz{
+    background-color: #000;
+    grid-area: 5/1/6/6;
+}
+
+#fTail{
+   background-color: #000;
+    grid-area: 4/2/7/7;
+}
+/* ggggggggggg*/
+#g{
+    width: 40px;
+    height: 40px;
+    display: grid;
+	padding: 10px;
+	margin-top: 5px;
+    grid-template-columns: repeat(5,20%);
+    grid-template-rows: repeat(6,16.6%);
+}
+#gBody{
+    background-color: #F62509;
+    grid-area: 1/1/7/7;
+}
+#gInner{
+    background-color: #000;
+    grid-area: 2/2/6/5;
+}
+
+#gVert{
+    background-color: #000;
+    grid-area: 1/4/7/5;
+}
+
+#gHorz{
+    background-color: #000;
+    grid-area: 3/1/4/6;
+}
+
+#gTail{
+    background-color: #E46F1B;
+    grid-area: 4/3/5/5;
+   
+}
+
+/* hhhhhhhhhhhhh*/
+#h{
+    width: 40px;
+    height: 40px;
+    display: grid;
+	padding: 10px;
+	margin-top: 5px;
+    grid-template-columns: repeat(5,20%);
+    grid-template-rows: repeat(6,16.6%);
+}
+#hBody{
+    background-color: #F62509;
+    grid-area: 1/1/7/7;
+}
+#hVert{
+    background-color: #000;
+    grid-area: 1/3/7/4;
+}
+
+#hInner{
+    background-color: #000;
+    grid-area: 1/2/3/5;
+}
+
+#hHorz{
+    background-color: #000;
+    grid-area: 4/1/5/6;
+}
+
+#hTail{
+    background-color: #000;
+    grid-area: 5/2/7/5;
+
+}
+
+/*iiiiiiiiii*/
+#i{
+    width: 40px;
+    height: 40px;
+    display: grid;
+	padding: 10px;
+	margin-top: 5px;
+    grid-template-columns: repeat(5,20%);
+    grid-template-rows: repeat(6,16.6%);
+}
+#iBody{
+    background-color: #F62509;
+    grid-area: 1/1/7/7;
+}
+#iVert{
+    background-color: #E46F1B;
+    grid-area: 1/3/7/5;
+}
+
+#iInner{
+    background-color: #000;
+    grid-area: 2/1/6/3;
+    
+}
+
+#iHorz{
+    background-color: #000;
+    grid-area: 4/1/5/6;
+    display:none;
+ 
+}
+
+#iTail{
+    background-color: #000;
+    grid-area: 2/4/6/6;
+  }  
+/*jjjjjjjjjj*/
+#j{
+    width: 40px;
+    height: 40px;
+    display: grid;
+	padding: 10px;
+	margin-top: 5px;
+    grid-template-columns: repeat(5,20%);
+    grid-template-rows: repeat(6,16.6%);
+}
+#jBody{
+    background-color: #F62509;
+    grid-area: 1/1/7/7;
+}
+#jInner{
+    background-color: #000;
+    grid-area: 2/2/6/5;
+}
+
+#jVert{
+    background-color: #000;
+    grid-area: 1/1/3/5;
+}
+
+#jHorz{
+    background-color: #000;
+    grid-area: 3/1/4/6;
+}
+
+#jTail{
+    background-color: #E46F1B;
+    grid-area: 4/2/5/3;
+   
+}
+/* kkkkkkkkkkk*/
+#k{
+    width: 40px;
+    height: 40px;
+    display: grid;
+	padding: 10px;
+	margin-top: 5px;
+    grid-template-columns: repeat(5,20%);
+    grid-template-rows: repeat(6,16.6%);
+}
+#kBody{
+    background-color: #F62509;
+    grid-area: 1/1/7/7;
+}
+#kVert{
+    background-color: #000;
+    grid-area: 1/3/7/4;
+}
+
+#kInner{
+    background-color: #000;
+    grid-area: 1/2/3/3;
+}
+
+#kHorz{
+    background-color: #000;
+    grid-area: 2/5/6/6;
+    
+}
+
+#kTail{
+    background-color: #000;
+    grid-area: 5/2/7/3;
+
+}
+
+/* lllllllllllll*/
+#l{
+    width: 40px;
+    height: 40px;
+    display: grid;
+	padding: 10px;
+	margin-top: 5px;
+    grid-template-columns: repeat(5,20%);
+    grid-template-rows: repeat(6,16.6%);
+}
+#lBody{
+    background-color: #F62509;
+    grid-area: 1/1/7/7;
+    z-index: -5;
+    
+}
+#lInner{
+    background-color: #000;
+    grid-area: 1/2/6/6;
+    z-index: -3;
+}
+
+#lVert{
+    background-color: #000;
+    grid-area: 1/2/7/3;
+    z-index: 0;
+}
+
+#lHorz{
+    background-color: #000;
+    grid-area: 3/1/4/6;
+    z-index: 0;
+}
+
+#lTail{
+    background-color: #E46F1B;
+    grid-area: 5/2/6/7;
+    z-index: -1;
+   
+}
+/* mmmmmmmmm*/
+#m{
+    width: 40px;
+    height: 40px;
+    display: grid;
+	padding: 10px;
+	margin-top: 5px;
+    grid-template-columns: repeat(5,20%);
+    grid-template-rows: repeat(6,16.6%);
+}
+#mBody{
+    background-color: #F62509;
+    grid-area: 1/1/7/7;
+}
+#mVert{
+    background-color: #000;
+    grid-area: 1/3/3/4;
+}
+
+#mInner{
+    background-color: #000;
+    grid-area: 1/2/2/5;
+}
+
+#mHorz{
+    background-color: #000;
+    grid-area: 5/1/6/6;
+}
+
+#mTail{
+    background-color: #000;
+    grid-area: 4/2/7/5;
+
+}
+
+/* nnnnnnnnnnnnn*/
+#n{
+    width: 40px;
+    height: 40px;
+    display: grid;
+    padding: 15px;
+    grid-template-columns: repeat(5,20%);
+    grid-template-rows: repeat(6,16.6%);
+}
+#nBody{
+    background-color: #F62509;
+    grid-area: 2/1/7/6;
+}
+#nInner{
+    background-color: #000;
+    grid-area: 4/2/7/5;
+}
+
+#nVert{
+    background-color: #000;
+    grid-area: 1/3/7/4;
+}
+
+#nHorz{
+    background-color: #000;
+    grid-area: 5/1/6/6;
+}
+
+#nTail{
+    background-color: #E46F1B;
+    grid-area: 1/1/7/2;
+    z-index: -1;
+}
+/* ooooooooooooooo*/
+#o{
+    width: 40px;
+    height: 40px;
+    display: grid;
+    padding: 5px;
+    margin-top: 20px;
+    grid-template-columns: repeat(5,20%);
+    grid-template-rows: repeat(6,16.6%);
+}
+
+#oBody{
+    background-color: #F62509;
+    grid-area: 1/1/6/6;
+}
+#oInner{
+    background-color: #000;
+    grid-area: 2/2/5/5;
+}
+
+#oVert{
+    background-color: #000;
+    grid-area: 1/3/6/4;
+    
+}
+
+#oHorz{
+    background-color: #000;
+    grid-area: 3/1/3/6;
+    
+}
+
+#oTail{
+    background-color: #E46F1B;
+    grid-area: 6/5/7/6;
+    display: none;
+}
+
+/* pppppppppppp*/
+#p{
+    width: 40px;
+    height: 40px;
+    display: grid;
+    padding: 5px;
+    margin-top: 20px;
+    grid-template-columns: repeat(5,20%);
+    grid-template-rows: repeat(6,16.6%);
+}
+
+#pBody{
+    background-color: #F62509;
+    grid-area: 1/1/6/6;
+}
+#pInner{
+    background-color: #000;
+    grid-area: 2/2/5/5;
+}
+
+#pVert{
+    background-color: #000;
+    grid-area: 1/3/6/4;
+    
+}
+
+#pHorz{
+    background-color: #000;
+    grid-area: 3/1/3/6;
+    
+}
+
+#pTail{
+    background-color: #E46F1B;
+    grid-area: 1/1/7/2;
+   
+}
+
+/* qqqqqqqqqq*/
+#q{
+    width: 40px;
+    height: 40px;
+    display: grid;
+    padding: 5px;
+    margin-top: 10px;
+    grid-template-columns: repeat(5,20%);
+    grid-template-rows: repeat(6,16.6%);
+}
+
+#qBody{
+    background-color: #F62509;
+    grid-area: 1/1/5/6;
+}
+#qInner{
+    background-color: #000;
+    grid-area: 2/2/4/5;
+}
+
+#qVert{
+    background-color: #000;
+    grid-area: 1/3/6/4;
+    
+}
+
+#qHorz{
+    background-color: #000;
+    grid-area: 3/1/3/6;
+    
+}
+
+#qTail{
+    background-color: #E46F1B;
+    grid-area: 1/5/7/6;
+}
+/* qqqqqqqqqq*/
+#r{
+    width: 40px;
+    height: 40px;
+    display: grid;
+    padding: 5px;
+    margin-top: 10px;
+    grid-template-columns: repeat(5,20%);
+    grid-template-rows: repeat(6,16.6%);
+}
+
+#rBody{
+    background-color: #F62509;
+    grid-area: 1/1/5/6;
+}
+#rInner{
+    background-color: #000;
+    grid-area: 2/2/4/5;
+}
+
+#rVert{
+    background-color: #000;
+    grid-area: 1/3/6/4;
+    
+}
+
+#rHorz{
+    background-color: #000;
+    grid-area: 3/1/3/6;
+    
+}
+
+#rTail{
+    background-color: #E46F1B;
+    grid-area: 1/5/7/6;
+}
+
+
+

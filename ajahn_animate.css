@@ -1,0 +1,23 @@
+body {
+	background-color: #000;
+	}
+#top-circle{
+	width:100px;
+	height:100px;
+	
+	background-color: #fff;
+	position: absolute;
+	left: 260px;
+	top: 150px;
+	}
+
+#bottom-circle{
+	width:100px;
+	height:100px;
+
+	background-color: #fff;
+	position: absolute;
+	left: 50px;
+	top: 150px;
+	}	
+
